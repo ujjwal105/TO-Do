@@ -1,4 +1,4 @@
-## Hi there this my first fullstack Project
+## Hi there this is my first fullstack Project using MERN
 
 This project contains a simple ToDo application
 it has the following features
