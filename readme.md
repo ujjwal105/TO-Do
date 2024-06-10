@@ -1,62 +1,90 @@
-# MERN ToDo Application
+# TODO Application
 
-Hi there! This is my first fullstack project using the MERN stack. This project is a simple ToDo application with the following features:
+This is a basic TODO application built using the MERN (MongoDB, Express.js, React, Node.js) stack. It allows users to create, view, and manage their tasks efficiently.
 
 ## Features
 
-- **Create ToDo**: Users can add new tasks to their list.
-- **View ToDo**: Users can view their list of tasks.
-- **Mark ToDo as Done**: Users can mark tasks as completed.
+- **Create TODOs**: Add new tasks to your TODO list.
+- **View TODOs**: See all your existing tasks.
+- **Update TODOs**: Mark tasks as done or edit them.
+- **Delete TODOs**: Remove tasks that are no longer needed.
 
-## Technologies Used
+## Tech Stack
 
 - **Frontend**: React.js
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
-- **Other**: Mongoose, Axios
 
 ## Installation
 
-1. **Clone the repository**:
+### Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js
+- MongoDB
+
+### Backend Setup
+
+1. Clone the repository:
+
     ```bash
     git clone https://github.com/ujjwal105/TO-Do.git
-    cd TO-Do
+    cd TO-Do/Backend
     ```
 
-2. **Install server dependencies**:
+2. Install backend dependencies:
+
     ```bash
-    cd backend
     npm install
     ```
 
-3. **Install client dependencies**:
+4. Start the backend server:
+
     ```bash
-    cd ../client
+    npm start
+    ```
+
+### Frontend Setup
+
+1. Navigate to the `Frontend` directory:
+
+    ```bash
+    cd ../frontend
+    ```
+
+2. Install frontend dependencies:
+
+    ```bash
     npm install
     ```
 
-4. **Create a `.env` file in the backend directory and add your MongoDB URI**:
-    ```plaintext
-    MONGO_URI=your_mongodb_url
+3. Start the frontend development server:
+
+    ```bash
+    npm run dev
     ```
+
+The application should now be running on `http://localhost:5173`.
 
 ## Usage
 
-1. **Run the server**:
-    ```bash
-    cd backend
-    npm start
-    ```
+- Open your browser and navigate to `http://localhost:5173`.
+- You can create, view, update, and delete your TODOs using the intuitive user interface.
 
-2. **Run the client**:
-    ```bash
-    cd ../client
-    npm start
-    ```
+## Project Structure
 
-3. **Open your browser and navigate to** `http://localhost:3000`.
+- `Backend/`: Contains the backend code (Node.js, Express, MongoDB).
+- `Frontend/`: Contains the frontend code (React.js).
 
 ## Contributing
 
-Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or submit a pull request.
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
+## License
+
+This project is licensed under the MIT License.
+
+## Contact
+
+For any inquiries or feedback, please reach out to [Ujjwal Tyagi](mailto:ujjwaltyagi2969@gmail.com).
